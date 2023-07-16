@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the TestPlaceDocs classes
+Unittest module for the Place Class.
 """
 
 from datetime import datetime
