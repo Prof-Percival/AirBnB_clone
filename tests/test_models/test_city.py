@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the TestCityDocs classes
+Unittest module for the City Class.
 """
 
 from datetime import datetime
