@@ -51,13 +51,13 @@ Usage: create BaseModel
 ./console.py
 # Create a BaseModel instance and print its id
 (htnb) create BaseModel
-My_Airbnb
+53be0422-79fb-4221-80fd-3551589a5940
 # to print the instance
-(htnb) show BaseModel My_Airbnb
-[BaseModel] (My_Airbnb) {'id': 'My_Airbnb', 'created_at': datetime.datetime(2023, 07, 15, 22, 15, 53, 117968), 'updated_at': datetime.datetime(2023, 07, 15, 22, 15, 55, 118060)}
+(htnb) show BaseModel 53be0422-79fb-4221-80fd-3551589a5940
+[BaseModel] (53be0422-79fb-4221-80fd-3551589a5940) {'id': '53be0422-79fb-4221-80fd-3551589a5940', 'created_at': datetime.datetime(2023, 7, 16, 15, 17, 51, 543688), 'updated_at': datetime.datetime(2023, 7, 16, 15, 17, 51, 543688)}
 # to print all object created previously
 (htnb) all
-["[BaseModel] (My_Airbnb) {'id': 'My_Airbnb', 'created_at': datetime.datetime(2023, 07, 15, 22, 15, 53, 117968), 'updated_at': datetime.datetime(2023, 07, 15, 22, 15, 55, 118060)}", "[BaseModel] (My_Airbnb_console) {'id': 'My_Airbnb_console', 'created_at': datetime.datetime(2023, 07, 15, 22, 15, 5, 1369), 'updated_at': datetime.datetime(2023, 07, 15, 22, 15, 5, 1383)}"]
+["[BaseModel] (53be0422-79fb-4221-80fd-3551589a5940) {\'id\': \'53be0422-79fb-4221-80fd-3551589a5940\', \'created_at\': datetime.datetime(2023, 7, 16, 15, 17, 51, 543688), \'updated_at\': datetime.datetime(2023, 7, 16, 15, 25, 14, 443863), \'first_name\': \'"Betty"\'}', "[BaseModel] (f182d7f1-2460-40b8-906f-b61babbec9e2) {'id': 'f182d7f1-2460-40b8-906f-b61babbec9e2', 'created_at': datetime.datetime(2023, 7, 16, 15, 26, 24, 972213), 'updated_at': datetime.datetime(2023, 7, 16, 15, 26, 24, 972213)}"]
 ```
 ---
 ### AUTHORS:
