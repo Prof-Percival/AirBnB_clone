@@ -17,7 +17,7 @@ from models.review import Review
 
 class HBNBCommand(cmd.Cmd):
 
-    """A HBNBCommand class"""
+    """A HBNBCommand class for the command interpreter."""
     prompt = '(hbnb) '
 
     def __class_validity(self, arguments):
